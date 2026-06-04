@@ -15,21 +15,21 @@ The system relies on a two-way synchronization loop: user interactions dispatch 
 
 ### Active State (Hardware ON)
 *System sends a `1` payload to the ThingSpeak server, activating physical hardware and virtual particle systems.*
-![Oxygen ON](images/Screenshot_2026-06-05_000731.jpg)
+![Oxygen ON](images/Screenshot%202026-06-05%20000731.png)
 
 ### Inactive State (Hardware OFF)
 *System sends a `0` payload, cutting hardware power and updating the digital cylinder state.*
-![Oxygen OFF](images/Screenshot_2026-06-05_000759.jpg)
+![Oxygen OFF](images/Screenshot%202026-06-05%20000759.png)
 
 ## 🔌 Physical Hardware Integration
 The virtual environment communicates directly with a custom-built IoT hardware setup. The physical circuit utilizes a microcontroller and relay system to control the air pump based on the API payloads received from the Unity client.
 
-![Physical Hardware Setup](images/hardware_setup.jpg)
+![Physical Hardware Setup](images/hardware_setup.jpeg)
 
 ## 🎤 Live Demonstration
 Ventysync was successfully exhibited and demonstrated live as a fully functional IoT Digital Twin at the Twin Tech Expo.
 
-![Live Expo Demonstration](images/expo_demo.jpg)
+![Live Expo Demonstration](images/expo_demo.jpeg)
 
 ## 📂 Repository Structure
 ```text
