@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column-reverse; flex-wrap: nowrap; align-items: stretch; background-image: none; justify-content: center; height: 307px; width: 157px; position: relative; bottom: 89px; right: -94px; top: -1px;">
+        <engine:Button text="TURN ON" name="on" style="background-color: rgb(57, 193, 41);" />
+        <engine:Button text="TURN OFF" name="off" style="background-color: rgb(197, 76, 76);" />
+    </engine:VisualElement>
+</engine:UXML>
