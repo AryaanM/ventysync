@@ -51,7 +51,7 @@ ventysync/
 5.  **Environmental Animation:** Includes aesthetic 3D medical environment elements (e.g., simulated heart rate monitor) for visual polish.
 
 ## 🚀 Setup Instructions
-1. Clone the repository: `git clone https://github.com/yourusername/ventysync.git`
+1. Clone the repository: `git clone https://github.com/AryaanM/ventysync.git`
 2. Open the project folder in Unity Hub (requires version 6000.0.34f1 or newer).
 3. Navigate to the API controller script and replace `<YOUR_READ_API_KEY>` and `<YOUR_WRITE_API_KEY>` with your active ThingSpeak credentials.
 4. Ensure your local hardware server is powered on and connected to the network to receive API payloads.
